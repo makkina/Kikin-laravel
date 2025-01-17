@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input.dark {
+    background-color: #9ca3af;
+}

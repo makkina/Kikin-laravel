@@ -22,56 +22,65 @@
     @vite(['resources/css/app.css'])
 </head>
 <body class="font-sf-pro antialiased">
-<div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center bg-primary-two selection:bg-red-500 selection:text-white">
+<div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center bg-primary-five selection:bg-red-500 selection:text-white">
 
     <!-- Navigation Bar -->
     <div class="sm:fixed sm:top-0 w-full p-10 flex justify-between items-center">
         <!-- Logo Section -->
         <a href="/" class="sm:left-0 pl-0 md:pl-16 text-left">
-            <img src="{{ asset('images/logo_transluscent.png') }}" alt="Logo" class="h-7 w-auto">
+            <img src="{{ asset('images/kikincoin.png') }}" alt="Logo" class="h-7 w-auto">
         </a>
 
-        <!-- Navigation Links -->
-        @if (Route::has('login'))
-            <div class="pr-0 md:pr-16 text-right text-opacity-50">
-                @auth
-                    <a href="{{ url('/dashboard') }}" class="text-opacity-50 font-semibold text-white hover:text-white-900 dark:text-white-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm  transition-all duration-300">Dashboard</a>
-                @else
-                    <a href="{{ route('login') }}" class="text-opacity-50 font-semibold text-white hover:text-white-900 dark:text-white-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm  transition-all duration-300">Log in</a>
-
-                    @if (Route::has('register'))
-                        <a href="{{ route('register') }}" class="text-opacity-50 ml-4 font-semibold text-white hover:text-white-900 dark:text-white-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm  transition-all duration-300">Register</a>
-                    @endif
-                @endauth
-            </div>
-        @endif
+{{--        <!-- Navigation Links -->--}}
+{{--        @if (Route::has('login'))--}}
+{{--            <div class="pr-0 md:pr-16 text-right text-opacity-50">--}}
+{{--                    <a href="{{ route('login') }}" class="text-opacity-50 font-semibold text-white hover:text-white-900 dark:text-white-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm  transition-all duration-300">Log in</a>--}}
+{{--                    <a href="{{ route('register') }}" class="text-opacity-50 ml-4 font-semibold text-white hover:text-white-900 dark:text-white-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm  transition-all duration-300">Register</a>--}}
+{{--            </div>--}}
+{{--        @endif--}}
     </div>
 
     <div class="max-w-7xl mx-auto lg:p-8 flex items-center justify-center p-6 min-h-screen">
 
         <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 flex flex-col md:flex-row items-center justify-center space-x-6">
 
-            <div class="p-5 md:pl-12 lg:pl-24 pt-20 md:pt-0 scale-100 bg-transparent rounded-lg dark:text-black md:text-left">
+            <div class="p-5 md:pl-12 lg:pl-22 pt-20 md:pt-0 scale-100 bg-transparent rounded-lg dark:text-black md:text-left">
                 <div>
-                    <img src="{{ asset('images/logo_black.png') }}" alt="Logo" class="h-7 w-auto">
+                    <img src="{{ asset('images/kikincoin_full.png') }}" alt="Logo" class="h-7 w-auto">
 
                     <div class="mt-10 text-base leading-snug tracking-tight">
-                        <span class="font-bold">VØID</span> is a privacy based <span class="font-bold">targeted messaging system.</span>
+                        Meet Kikin, the first <span class="font-bold">Crypto Trustfund Baby</span> in the world. His dad bought <a href="https://dogecoin.com" target="_blank" class="text-decoration-none"><span class="font-bold">DOGE</span></a> at 0.00000000000000…, a total <a href="https://www.gigachadsolana.com/" target="_blank" class="text-decoration-none"><span class="font-bold">CHAD</span></a> move.
+                        <br>
+                        Now KIKIN does not have to work, only drinks the most expensive kid champagne and drives Bugatti's.
                     </div><br/>
 
                     <p class="text-base leading-snug tracking-tight">
-                        Let’s say you want to send a message to a certain type of person.
-                        VØID let’s you describe the person and will then use Artificial Intelligence
-                        to send that message to 50 people that match that description.
+                        <span class="font-bold">Attention kids!</span> You do not have to be poor! Tell your parents to buy <span class="font-bold">$KIKIN</span> and let's ride this to the moon, so you can also have a least one Bugatti!
                         <br/><br/>
-                        Happy Messaging,
-                    </p>
+                        To the Moon!,
+                    </p> <br/>
+
+                    <div class="flex justify-content-center align-items-center py-3 gap-2">
+                        <a href="https://t.me/+g0gwofCoWCIzYzA8" target="_blank" class="text-decoration-none">
+                            <img src="{{ asset('images/telegram_icon.png') }}" alt="Logo" class="h-11 w-auto">
+                        </a>
+                        <a href="https://twitter.com/kikincoin" target="_blank" class="text-decoration-none">
+                            <img src="{{ asset('images/x_icon.png') }}" alt="Logo" class="h-11 w-auto">
+                        </a>
+                        <a href="https://dexscreener.com/solana/defjgzfxs59ijq42gnvva3gi7a1mghnhcw4ht5ergxh2" target="_blank" class="text-decoration-none">
+                            <img src="{{ asset('images/dexscreener_icon.png') }}" alt="Logo" class="h-11 w-auto">
+                        </a>
+                    </div>
+
+                    <div>
+                        © 2024 kikin.co
+                    </div>
                 </div>
             </div>
 
             {{--                        <div class="bg-white rounded-lg flex motion-safe:hover:scale-[1.01] transition-all duration-250">--}}
-            <div class="p-0 lg:pl-14 bg-transparent rounded-lg flex motion-safe:hover:scale-[1.01] transition-all duration-250 ">
-                <img src="{{ asset('images/cellphone_infinity.png') }}" alt="Logo" class="w-full h-auto rounded-lg">
+            <div class="p-0 lg:pl-14 lg:pr-24 md:pr-14 bg-transparent rounded-lg flex motion-safe:hover:scale-[1.01] transition-all duration-250 ">
+                <img src="{{ asset('images/kikin.svg') }}" alt="Logo" class="w-full h-auto rounded-lg">
             </div>
 
 
