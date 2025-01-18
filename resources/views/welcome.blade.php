@@ -49,7 +49,7 @@
                     <img src="{{ asset('images/kikincoin_full.png') }}" alt="Logo" class="h-7 w-auto">
 
                     <div class="mt-10 text-base leading-snug tracking-tight">
-                        Meet Kikin, the first <span class="font-bold">Crypto Trustfund Baby</span> in the world. His dad bought <a href="https://dogecoin.com" target="_blank" class="text-decoration-none"><span class="font-bold">DOGE</span></a> at 0.00000000000000…, a total <a href="https://www.gigachadsolana.com/" target="_blank" class="text-decoration-none"><span class="font-bold">CHAD</span></a> move.
+                        Meet Kikin, the first <span class="font-bold">Crypto Trustfund Baby</span> in the world. His dad bought <a href="https://dogecoin.com" target="_blank" class="text-decoration-none"><span class="font-bold">DOGE</span></a> at 0.00000000000000…, a total <a href="https://www.gigachadsolana.com/" target="_blank" class="text-decoration-none">Chad</a> move.
                         <br>
                         Now KIKIN does not have to work, only drinks the most expensive kid champagne and drives Bugatti's.
                     </div><br/>
