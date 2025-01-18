@@ -55,9 +55,9 @@
                     </div><br/>
 
                     <p class="text-base leading-snug tracking-tight">
-                        <span class="font-bold">Attention kids!</span> You do not have to be poor! Tell your parents to buy <span class="font-bold">$KIKIN</span> and let's ride this to the moon, so you can also have a least one Bugatti!
+                        <span class="font-bold">Attention kids!</span> You do not have to be poor! Tell your parents to buy <span class="font-bold">$KIKIN</span> and let's ride it to the moon, so you can also have a least one Bugatti!
                         <br/><br/>
-                        To the Moon!,
+                        To the Moon!
                     </p> <br/>
 
                     <div class="flex justify-content-center align-items-center py-3 gap-2">
