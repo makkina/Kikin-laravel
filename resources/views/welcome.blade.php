@@ -34,7 +34,7 @@
         <!-- Navigation Links -->
         <div class="pr-0 md:pr-16 text-right text-opacity-50">
             <span class="font-bold">Contract Address:</span>
-            <span class="">TBD</span>
+            <span class="">GLNKGX5b5vWmjbNqEoMKSXqRuwW2yayL3ENiBVjoqEsF</span>
         </div>
 
     </div>
@@ -73,7 +73,7 @@
                         <a href="https://twitter.com/kikincoin" target="_blank" class="text-decoration-none">
                             <img src="{{ asset('images/x_icon.png') }}" alt="Logo" class="h-11 w-auto">
                         </a>
-                        <a href="https://dexscreener.com/solana/defjgzfxs59ijq42gnvva3gi7a1mghnhcw4ht5ergxh2" target="_blank" class="text-decoration-none">
+                        <a href="https://dexscreener.com/solana/GLNKGX5b5vWmjbNqEoMKSXqRuwW2yayL3ENiBVjoqEsF" target="_blank" class="text-decoration-none">
                             <img src="{{ asset('images/dexscreener_icon.png') }}" alt="Logo" class="h-11 w-auto">
                         </a>
                         <a href="https://github.com/makkina/kikin-laravel" target="_blank" class="text-decoration-none">
