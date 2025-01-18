@@ -22,7 +22,7 @@
     @vite(['resources/css/app.css'])
 </head>
 <body class="font-sf-pro antialiased">
-<div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center bg-primary-five selection:bg-red-500 selection:text-white">
+<div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center bg-primary-four selection:bg-red-500 selection:text-white">
 
     <!-- Navigation Bar -->
     <div class="sm:fixed sm:top-0 w-full p-10 flex justify-between items-center">
