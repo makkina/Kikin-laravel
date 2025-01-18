@@ -70,6 +70,9 @@
                         <a href="https://dexscreener.com/solana/defjgzfxs59ijq42gnvva3gi7a1mghnhcw4ht5ergxh2" target="_blank" class="text-decoration-none">
                             <img src="{{ asset('images/dexscreener_icon.png') }}" alt="Logo" class="h-11 w-auto">
                         </a>
+                        <a href="https://github.com/makkina/kikin-laravel" target="_blank" class="text-decoration-none">
+                            <img src="{{ asset('images/github_icon.png') }}" alt="Logo" class="h-11 w-auto">
+                        </a>
                     </div>
 
                     <div>
