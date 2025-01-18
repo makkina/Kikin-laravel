@@ -31,13 +31,12 @@
             <img src="{{ asset('images/kikincoin.png') }}" alt="Logo" class="h-7 w-auto">
         </a>
 
-{{--        <!-- Navigation Links -->--}}
-{{--        @if (Route::has('login'))--}}
-{{--            <div class="pr-0 md:pr-16 text-right text-opacity-50">--}}
-{{--                    <a href="{{ route('login') }}" class="text-opacity-50 font-semibold text-white hover:text-white-900 dark:text-white-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm  transition-all duration-300">Log in</a>--}}
-{{--                    <a href="{{ route('register') }}" class="text-opacity-50 ml-4 font-semibold text-white hover:text-white-900 dark:text-white-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm  transition-all duration-300">Register</a>--}}
-{{--            </div>--}}
-{{--        @endif--}}
+        <!-- Navigation Links -->
+        <div class="pr-0 md:pr-16 text-right text-opacity-50">
+            <span class="font-bold">Contract Address:</span>
+            <span class="">TBD</span>
+        </div>
+
     </div>
 
     <div class="max-w-7xl mx-auto lg:p-8 flex items-center justify-center p-6 min-h-screen">
@@ -49,14 +48,21 @@
                     <img src="{{ asset('images/kikincoin_full.png') }}" alt="Logo" class="h-7 w-auto">
 
                     <div class="mt-10 text-base leading-snug tracking-tight">
-                        Meet Kikin, the first <span class="font-bold">Crypto Trustfund Baby</span> in the world. His dad bought <a href="https://dogecoin.com" target="_blank" class="text-decoration-none"><span class="font-bold">DOGE</span></a> at 0.00000000000000…, a total <a href="https://www.gigachadsolana.com/" target="_blank" class="text-decoration-none">Chad</a> move.
+                        Meet Kikin, the first <span class="font-bold">Crypto Trust Fund Baby</span> in the world.
                         <br>
-                        Now KIKIN does not have to work, only drinks the most expensive kid champagne and drives Bugatti's.
+                        His dad bought <a href="https://dogecoin.com" target="_blank" class="text-decoration-none"><span class="font-bold">DOGE</span></a> at 0.00000000000000…, a total <a href="https://www.gigachadsolana.com/" target="_blank" class="text-decoration-none">Chad</a> move.
+                        <br>
+                        Now KIKIN does not work, only drinks the most expensive kid champagne and drives Bugatti's.
+                        He now helps kids not to be poor.
                     </div><br/>
 
                     <p class="text-base leading-snug tracking-tight">
-                        <span class="font-bold">Attention kids!</span> You do not have to be poor! Tell your parents to buy <span class="font-bold">$KIKIN</span> and let's ride it to the moon, so you can also have a least one Bugatti!
+                        <span class="font-bold">Attention kids!</span> You do not have to be poor! Tell your parents to buy <span class="font-bold">$KIKIN</span> and let's ride it to the moon, so you can also have at least one Bugatti.
                         <br/><br/>
+{{--                        <span style="border-radius: 5px; display:inline-block; padding: 2px 10px; border: 1.5px solid black; margin-bottom: 6px;">--}}
+{{--                            Contract addres: Contract goes here--}}
+{{--                        </span>--}}
+{{--                        <br/><br/>--}}
                         To the Moon!
                     </p> <br/>
 
