@@ -22,27 +22,24 @@
     @vite(['resources/css/app.css'])
 </head>
 <body class="font-sf-pro antialiased">
-<div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center bg-primary-four selection:bg-red-500 selection:text-white">
+
+<div class="sm:flex sm:justify-center bg-primary-three w-full pl-10 pr-10">
+    <div class="font-bold" style="display: inline-block">Contract Address:</div> &nbsp;
+    <div class="" style="word-break: break-all;">GLNKGX5b5vWmjbNqEoMKSXqRuwW2yayL3ENiBVjoqEsF</div>
+</div>
+
+<div class="sm:flex sm:justify-center sm:items-center min-h-screen bg-center bg-primary-four selection:bg-red-500 selection:text-white">
 
     <!-- Navigation Bar -->
-    <div class="sm:fixed sm:top-0 w-full p-10 flex justify-between items-center">
+    <div class="sm:fixed sm:top-5 w-full p-10 flex justify-between items-center">
         <!-- Logo Section -->
         <a href="/" class="sm:left-0 pl-0 md:pl-16 text-left">
-            <img src="{{ asset('images/kikincoin.png') }}" alt="Logo" class="h-7 w-auto">
+            <img src="{{ asset('images/kikincoin.png') }}" alt="Logo" class="h-7 v-7">
         </a>
-
-        <!-- Navigation Links -->
-        <div class="pr-0 md:pr-16 text-right text-opacity-50">
-            <span class="font-bold">Contract Address:</span>
-            <span class="">GLNKGX5b5vWmjbNqEoMKSXqRuwW2yayL3ENiBVjoqEsF</span>
-        </div>
-
     </div>
 
     <div class="max-w-7xl mx-auto lg:p-8 flex items-center justify-center p-6 min-h-screen">
-
         <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 flex flex-col md:flex-row items-center justify-center space-x-6">
-
             <div class="p-5 md:pl-12 lg:pl-22 pt-20 md:pt-0 scale-100 bg-transparent rounded-lg dark:text-black md:text-left">
                 <div>
                     <img src="{{ asset('images/kikincoin_full.png') }}" alt="Logo" class="h-7 w-auto">
@@ -59,10 +56,6 @@
                     <p class="text-base leading-snug tracking-tight">
                         <span class="font-bold">Attention kids!</span> You do not have to be poor! Tell your parents to buy <span class="font-bold">$KIKIN</span> and let's ride it to the moon, so you can also have at least one Bugatti.
                         <br/><br/>
-{{--                        <span style="border-radius: 5px; display:inline-block; padding: 2px 10px; border: 1.5px solid black; margin-bottom: 6px;">--}}
-{{--                            Contract addres: Contract goes here--}}
-{{--                        </span>--}}
-{{--                        <br/><br/>--}}
                         To the Moon!
                     </p> <br/>
 
