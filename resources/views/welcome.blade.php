@@ -21,9 +21,9 @@
     <!-- Scripts -->
     @vite(['resources/css/app.css'])
 </head>
-<body class="font-sf-pro antialiased">
+<body class="font-sf-pro antialiased bg-primary-three">
 
-<div class="sm:flex sm:justify-center bg-primary-three w-full pl-10 pr-10">
+<div class="sm:flex sm:justify-center bg-primary-three w-full pl-10 pr-10 ">
     <div class="font-bold" style="display: inline-block">Contract Address:</div> &nbsp;
     <div class="" style="word-break: break-all;">GLNKGX5b5vWmjbNqEoMKSXqRuwW2yayL3ENiBVjoqEsF</div>
 </div>
